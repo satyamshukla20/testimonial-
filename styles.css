@@ -1,0 +1,255 @@
+/* defaults */
+html{
+  font-size: 13px;
+  background: hsl(210, 46%, 95%);
+  height: 100%;
+}
+h3,p{
+  margin:0;
+  padding: 0;
+}
+
+
+
+
+/* quotes */
+.quotes{
+  position: relative;
+  left: 58em;
+  top: 16.308em;
+  width: 6%;
+  opacity: 40%;
+
+}
+
+
+
+
+/* backgrounds */
+.daniel{
+  background:hsl(263, 55%, 52%);
+}
+.jonathan{
+  background: hsl(217, 19%, 35%);
+}
+.patrick{
+  background:hsl(219, 29%, 14%);
+}
+
+
+.jeannete{
+  background:hsl(0, 0%, 100%);
+}
+
+
+.image{
+  border-radius: 50%;
+
+}
+
+/* typography */
+.element-heading{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+   font-weight: 600;
+}
+.element-subheading{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+   font-weight: 500;
+   opacity: 50%;
+}
+.element-bold-content{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 600;
+  margin: 1em 0;
+  font-size: 1.5rem;
+}
+.element-content{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 500;
+    margin: 1em 0;
+    opacity: 70%;
+}
+aside .element-heading {
+  color: hsl(217, 19%, 35%);
+font-size: 1.17rem;
+}
+aside{
+
+
+border-radius: 5%;
+padding: 1em 2em 0em 1em;
+background:hsl(0, 0%, 100%);
+}
+
+aside p {
+  color: hsl(217, 19%, 35%);
+font-size: 1.17rem;
+
+}
+
+ .jeannete .element-heading{
+   color: hsl(217, 19%, 35%);
+
+ }
+ .jeannete p{
+   color: hsl(217, 19%, 35%);
+font-size: 1.17rem;
+ }
+
+h3{
+  color: white;
+
+}
+.patrick p {
+  color: white;
+
+}
+
+.daniel p {
+  color: white;
+
+}
+.jonathan p {
+  color: white;
+
+}
+.patrick h3 {
+  color: white;
+  opacity: 70%;
+
+}
+
+.daniel h3 {
+  color: white;
+  opacity: 70%;
+
+}
+.jonathan h3 {
+  color: white;
+  opacity: 70%;
+
+}
+
+
+
+
+
+/* layouts */
+.container{
+  width:80%;
+  max-width: 1200px;
+  margin-top: 5em;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+.container-flex{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap:2em;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+}
+
+.img-flex{
+  display: flex;
+}
+
+
+/* .daniel{
+  width:100%;
+}
+.jonathan{
+  width:100%;
+}
+.patrick{
+  width:100%;
+}
+.jeannete{
+width:100%;
+}
+main{
+width:  100%;
+}
+aside{
+  width: 100%;
+} */
+.title{
+  margin:1em 0 0 1em;
+
+}
+
+
+.element{
+  border-radius: 5%;
+  padding: 1em 2em 1em 2em;
+margin-bottom: 2em;
+
+}
+/* .row-1{
+
+  margin-bottom: 2em;
+} */
+@media (min-width:700px) {
+  .container-flex{
+
+
+    flex-direction: row;
+  }
+  .row{
+
+    flex-direction: row;
+gap:2em;
+  }
+
+
+  .daniel{
+    width:70%;
+
+  }
+  .jonathan{
+    width:30%;
+
+  }
+  .patrick{
+    width:70%;
+  }
+  .jeannete{
+    width:30%;
+  }
+  main{
+ width:  80%;
+
+  }
+  aside{
+  width: 20%;
+
+  border-radius: 5%;
+  padding: 1em 2em 0em 1em;
+  background:hsl(0, 0%, 100%);
+  }
+  /* .kira{
+    height: 92%;
+  } */
+.container{
+  margin-top: 7.5em;
+  gap:2em;
+}
+.element{
+  margin: 0;
+}
+.row-1{
+  margin-bottom: 2em;
+}
+
+
+
+
+
+}
