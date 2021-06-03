@@ -185,6 +185,12 @@ aside{
 
 }
 
+.daniel{
+  background-image: url(bg.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-origin:content-box;
+}
 
 .element{
   border-radius: 5%;
@@ -196,7 +202,7 @@ margin-bottom: 2em;
 
   margin-bottom: 2em;
 } */
-@media (min-width:700px) {
+@media (min-width:800px) {
   .container-flex{
 
 
@@ -211,6 +217,10 @@ gap:2em;
 
   .daniel{
     width:70%;
+    background-image: url(bg.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-origin:content-box;
 
   }
   .jonathan{
